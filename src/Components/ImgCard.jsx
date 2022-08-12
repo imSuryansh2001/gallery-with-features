@@ -40,7 +40,7 @@ const ImgCard = () => {
                 rmv?photos.map((cv, index,id) => {
                     const { img, name, description, price} = cv;
                     return <>
-                        <div className='h-[60vh] w-[90%] mx-auto bg-purple-200 mt-10' key={index} >
+                        <div className='h-[65vh] w-[90%] mx-auto bg-purple-200 mt-10' key={index} >
                             <img className='p-3 h-[25vh] w-[100%] mx-auto' src={img} alt={img} />
                             <p className='text-center text-lg'>{name}</p>
                             {/* para div */}
